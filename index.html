@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MABAAGRO.com | Premium Organic Mushroom Farming</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <style type="text/css">@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:300;src:url(/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:400;src:url(/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:600;src:url(/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(/cf-fonts/v/inter/5.0.16/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(/cf-fonts/v/inter/5.0.16/cyrillic-ext/wght/normal.woff2);unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(/cf-fonts/v/inter/5.0.16/greek-ext/wght/normal.woff2);unicode-range:U+1F00-1FFF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(/cf-fonts/v/inter/5.0.16/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(/cf-fonts/v/inter/5.0.16/greek/wght/normal.woff2);unicode-range:U+0370-03FF;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(/cf-fonts/v/inter/5.0.16/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Inter;font-style:normal;font-weight:700;src:url(/cf-fonts/v/inter/5.0.16/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Playfair Display;font-style:normal;font-weight:700;src:url(/cf-fonts/v/playfair-display/5.0.18/cyrillic/wght/normal.woff2);unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;font-display:swap;}@font-face {font-family:Playfair Display;font-style:normal;font-weight:700;src:url(/cf-fonts/v/playfair-display/5.0.18/latin-ext/wght/normal.woff2);unicode-range:U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;font-display:swap;}@font-face {font-family:Playfair Display;font-style:normal;font-weight:700;src:url(/cf-fonts/v/playfair-display/5.0.18/vietnamese/wght/normal.woff2);unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;font-display:swap;}@font-face {font-family:Playfair Display;font-style:normal;font-weight:700;src:url(/cf-fonts/v/playfair-display/5.0.18/latin/wght/normal.woff2);unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;font-display:swap;}</style>
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'sans': ['Inter', 'sans-serif'],
+                        'display': ['Playfair Display', 'serif'],
+                    },
+                    colors: {
+                        'primary': {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            200: '#bbf7d0',
+                            300: '#86efac',
+                            400: '#4ade80',
+                            500: '#22c55e',
+                            600: '#16a34a',
+                            700: '#15803d',
+                            800: '#166534',
+                            900: '#14532d',
+                        },
+                        'earth': {
+                            100: '#f5f5dc',
+                            200: '#deb887',
+                            300: '#cd853f',
+                            400: '#a0522d',
+                            500: '#8b4513',
+                        }
+                    },
+                    animation: {
+                        'float': 'float 6s ease-in-out infinite',
+                        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'bounce-slow': 'bounce 2s infinite',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #22c55e 0%, #16a34a 50%, #15803d 100%);
+        }
+        
+        .hero-pattern {
+            background-image: radial-gradient(circle at 25% 25%, rgba(255,255,255,0.1) 2px, transparent 2px),
+                              radial-gradient(circle at 75% 75%, rgba(255,255,255,0.1) 2px, transparent 2px);
+            background-size: 60px 60px;
+        }
+    </style>
+</head>
+
+<body class="font-sans text-gray-800 bg-gray-50">
+
+<!-- Navigation -->
+<nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md shadow-lg transition-all duration-300" id="navbar">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center py-4">
+            <!-- Logo -->
+            <div class="flex-shrink-0">
+                <h1 class="text-2xl md:text-3xl font-display font-bold text-primary-700">
+                    🍄 MABAAGRO.com
+                </h1>
+            </div>
+            
+            <!-- Desktop Navigation -->
+            <div class="hidden md:block">
+                <div class="ml-10 flex items-baseline space-x-8">
+                    <a href="#home" class="text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors duration-200">Home</a>
+                    <a href="#about" class="text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors duration-200">About</a>
+                    <a href="#products" class="text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors duration-200">Products</a>
+                    <a href="#contact" class="text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors duration-200">Contact</a>
+                </div>
+            </div>
+            
+            <!-- Mobile menu button -->
+            <div class="md:hidden">
+                <button type="button" class="text-gray-700 hover:text-primary-600 focus:outline-none focus:text-primary-600" id="mobile-menu-btn">
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Navigation Menu -->
+        <div class="md:hidden hidden" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t">
+                <a href="#home" class="block px-3 py-2 text-gray-700 hover:text-primary-600">Home</a>
+                <a href="#about" class="block px-3 py-2 text-gray-700 hover:text-primary-600">About</a>
+                <a href="#products" class="block px-3 py-2 text-gray-700 hover:text-primary-600">Products</a>
+                <a href="#contact" class="block px-3 py-2 text-gray-700 hover:text-primary-600">Contact</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<!-- Hero Section - Fixed -->
+<section id="home" class="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-green-800 via-green-700 to-green-900 overflow-hidden">
+    <!-- Animated Background Elements -->
+    <div class="absolute inset-0 overflow-hidden">
+        <div class="absolute -top-40 -right-40 w-80 h-80 bg-green-600/20 rounded-full animate-pulse-slow"></div>
+        <div class="absolute -bottom-40 -left-40 w-96 h-96 bg-green-500/10 rounded-full animate-float"></div>
+        <div class="absolute top-20 left-20 w-32 h-32 bg-yellow-400/30 rounded-full animate-bounce-slow"></div>
+    </div>
+    
+    <!-- Background Pattern -->
+    <div class="absolute inset-0 opacity-10">
+        <div class="w-full h-full" style="background-image: radial-gradient(circle at 25% 25%, rgba(255,255,255,0.2) 2px, transparent 2px), radial-gradient(circle at 75% 75%, rgba(255,255,255,0.2) 2px, transparent 2px); background-size: 60px 60px;"></div>
+    </div>
+    
+    <div class="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+        <div data-aos="fade-up" data-aos-duration="1000">
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-display font-bold text-white mb-6 leading-tight drop-shadow-2xl">
+                Organic <span class="text-yellow-300">Mushrooms</span><br>
+                For Better <span class="text-green-200">Health</span>
+            </h1>
+        </div>
+        
+        <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+            <p class="text-xl md:text-2xl text-green-50 mb-12 max-w-4xl mx-auto leading-relaxed drop-shadow-lg">
+                Experience nature's superfood with our 100% organic mushrooms. Packed with essential nutrients, 
+                immune-boosting compounds, and grown with sustainable farming practices.
+            </p>
+        </div>
+
+        <!-- Health Benefits Cards -->
+        <div data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 max-w-5xl mx-auto">
+            <!-- Immune Support -->
+            <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300">
+                <div class="text-4xl mb-3">🛡️</div>
+                <h3 class="text-xl font-bold text-white mb-2">Immune Support</h3>
+                <p class="text-green-100 text-sm">Rich in beta-glucans and antioxidants that naturally boost your immune system</p>
+            </div>
+            
+            <!-- High Protein -->
+            <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300">
+                <div class="text-4xl mb-3">💪</div>
+                <h3 class="text-xl font-bold text-white mb-2">High Protein</h3>
+                <p class="text-green-100 text-sm">Complete protein source with all essential amino acids for muscle health</p>
+            </div>
+            
+            <!-- Low Calories -->
+            <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300">
+                <div class="text-4xl mb-3">⚖️</div>
+                <h3 class="text-xl font-bold text-white mb-2">Weight Management</h3>
+                <p class="text-green-100 text-sm">Low in calories but high in nutrients, perfect for healthy weight management</p>
+            </div>
+        </div>
+
+        <!-- Organic Farming Benefits -->
+        <div data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000" class="bg-green-900/40 backdrop-blur-sm rounded-2xl p-8 mb-10 border border-green-600/30 max-w-4xl mx-auto">
+            <h3 class="text-2xl font-bold text-yellow-300 mb-4">🌱 Why Choose Organic Farming?</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
+                <div class="flex items-start space-x-3">
+                    <span class="text-green-300 text-xl">✓</span>
+                    <div>
+                        <p class="text-white font-semibold">No Chemical Pesticides</p>
+                        <p class="text-green-100 text-sm">Safe for you and the environment</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-3">
+                    <span class="text-green-300 text-xl">✓</span>
+                    <div>
+                        <p class="text-white font-semibold">Sustainable Practices</p>
+                        <p class="text-green-100 text-sm">Preserving soil health for future generations</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-3">
+                    <span class="text-green-300 text-xl">✓</span>
+                    <div>
+                        <p class="text-white font-semibold">Higher Nutritional Value</p>
+                        <p class="text-green-100 text-sm">More vitamins and minerals than conventional</p>
+                    </div>
+                </div>
+                <div class="flex items-start space-x-3">
+                    <span class="text-green-300 text-xl">✓</span>
+                    <div>
+                        <p class="text-white font-semibold">Biodiversity Protection</p>
+                        <p class="text-green-100 text-sm">Supporting natural ecosystems</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
+            <a href="#products" class="inline-block bg-yellow-400 text-green-900 px-10 py-4 rounded-full text-lg font-bold hover:bg-yellow-300 transform hover:scale-105 transition-all duration-300 shadow-2xl">
+                Explore Our Mushrooms 🍄
+            </a>
+        </div>
+    </div>
+    
+    <!-- Scroll Indicator -->
+    <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+        <div class="animate-bounce-slow">
+            <svg class="w-8 h-8 text-white drop-shadow-lg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+            </svg>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <!-- Text Content -->
+            <div data-aos="fade-right" data-aos-duration="1000">
+                <h2 class="text-4xl md:text-5xl font-display font-bold text-gray-900 mb-6">
+                    About <span class="text-primary-600">MABAAGRO</span>
+                </h2>
+                
+                <p class="text-lg text-gray-600 mb-6 leading-relaxed">
+                    At MABAAGRO.com, we're passionate about sustainable agriculture and delivering the finest organic mushrooms. 
+                    Our state-of-the-art facilities and traditional farming wisdom combine to create mushrooms that are not only 
+                    delicious but also packed with nutrients.
+                </p>
+                
+                <div class="space-y-4 mb-8">
+                    <div class="flex items-start space-x-3">
+                        <div class="flex-shrink-0">
+                            <div class="w-6 h-6 bg-primary-100 rounded-full flex items-center justify-center">
+                                <svg class="w-3 h-3 text-primary-600" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <p class="text-gray-600">100% Certified Organic Production</p>
+                    </div>
+                    
+                    <div class="flex items-start space-x-3">
+                        <div class="flex-shrink-0">
+                            <div class="w-6 h-6 bg-primary-100 rounded-full flex items-center justify-center">
+                                <svg class="w-3 h-3 text-primary-600" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <p class="text-gray-600">Sustainable & Eco-Friendly Practices</p>
+                    </div>
+                    
+                    <div class="flex items-start space-x-3">
+                        <div class="flex-shrink-0">
+                            <div class="w-6 h-6 bg-primary-100 rounded-full flex items-center justify-center">
+                                <svg class="w-3 h-3 text-primary-600" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <p class="text-gray-600">Farm-to-Table Freshness Guaranteed</p>
+                    </div>
+                </div>
+                
+                <div class="flex space-x-4">
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-primary-600">5+</div>
+                        <div class="text-sm text-gray-500">Years Experience</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-primary-600">1000+</div>
+                        <div class="text-sm text-gray-500">Happy Customers</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-primary-600">10+</div>
+                        <div class="text-sm text-gray-500">Mushroom Varieties</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Image -->
+            <div data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1585238341710-4d3ff484184d?auto=format&fit=crop&w=800&q=80" 
+                         alt="Organic Mushroom Farm" 
+                         class="rounded-2xl shadow-2xl">
+                    <div class="absolute -bottom-6 -right-6 w-32 h-32 bg-primary-500 rounded-2xl flex items-center justify-center text-white text-4xl animate-float">
+                        🌿
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Products Section -->
+<section id="products" class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <h2 data-aos="fade-up" class="text-4xl md:text-5xl font-display font-bold text-gray-900 mb-6">
+                Our Premium <span class="text-primary-600">Products</span>
+            </h2>
+            <p data-aos="fade-up" data-aos-delay="100" class="text-xl text-gray-600 max-w-3xl mx-auto">
+                Discover our carefully cultivated selection of organic mushrooms, each variety offering unique flavors and exceptional nutritional benefits.
+            </p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- Button Mushrooms -->
+            <div data-aos="zoom-in" data-aos-delay="100" class="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                <div class="relative overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=400&q=80" 
+                         alt="Button Mushrooms" 
+                         class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute top-4 right-4 bg-primary-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                        Fresh
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Button Mushrooms</h3>
+                    <p class="text-gray-600 mb-4">Tender, versatile, and packed with essential nutrients. Perfect for everyday cooking.</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-primary-600 font-semibold">Premium Quality</span>
+                        <div class="text-2xl">🍄</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Oyster Mushrooms -->
+            <div data-aos="zoom-in" data-aos-delay="200" class="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                <div class="relative overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" 
+                         alt="Oyster Mushrooms" 
+                         class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute top-4 right-4 bg-primary-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                        Premium
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Oyster Mushrooms</h3>
+                    <p class="text-gray-600 mb-4">Delicate texture with high protein content. Excellent for gourmet dishes.</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-primary-600 font-semibold">High Protein</span>
+                        <div class="text-2xl">🦪</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Shiitake Mushrooms -->
+            <div data-aos="zoom-in" data-aos-delay="300" class="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                <div class="relative overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1465101162946-4377e57745c3?auto=format&fit=crop&w=400&q=80" 
+                         alt="Shiitake Mushrooms" 
+                         class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute top-4 right-4 bg-yellow-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                        Superfood
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Shiitake Mushrooms</h3>
+                    <p class="text-gray-600 mb-4">Rich umami flavor with immune-boosting properties. A true superfood.</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-primary-600 font-semibold">Immune Boost</span>
+                        <div class="text-2xl">🍄</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Portobello Mushrooms -->
+            <div data-aos="zoom-in" data-aos-delay="400" class="group bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
+                <div class="relative overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1468421870903-4df1664ac249?auto=format&fit=crop&w=400&q=80" 
+                         alt="Portobello Mushrooms" 
+                         class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500">
+                    <div class="absolute top-4 right-4 bg-red-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                        Hearty
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Portobello Mushrooms</h3>
+                    <p class="text-gray-600 mb-4">Large, meaty caps perfect for grilling. Great meat substitute option.</p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-primary-600 font-semibold">Meat Alternative</span>
+                        <div class="text-2xl">🥩</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <!-- Contact Form -->
+            <div data-aos="fade-right" data-aos-duration="1000">
+                <h2 class="text-4xl md:text-5xl font-display font-bold text-gray-900 mb-6">
+                    Get In <span class="text-primary-600">Touch</span>
+                </h2>
+                <p class="text-lg text-gray-600 mb-8">
+                    Ready to experience the finest organic mushrooms? Contact us for orders, partnerships, or any questions about our products.
+                </p>
+                
+                <form class="space-y-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <input type="text" placeholder="Your Name" 
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-200">
+                        </div>
+                        <div>
+                            <input type="email" placeholder="Your Email" 
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-200">
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <input type="text" placeholder="Subject" 
+                               class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-200">
+                    </div>
+                    
+                    <div>
+                        <textarea rows="5" placeholder="Your Message" 
+                                  class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-200"></textarea>
+                    </div>
+                    
+                    <button type="submit" 
+                            class="w-full bg-primary-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-primary-700 transform hover:scale-105 transition-all duration-300 shadow-lg">
+                        Send Message 🚀
+                    </button>
+                </form>
+            </div>
+            
+            <!-- Contact Info -->
+            <div data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
+                <div class="bg-gradient-to-br from-primary-500 to-primary-700 rounded-2xl p-8 text-white">
+                    <h3 class="text-2xl font-bold mb-6">Contact Information</h3>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0">
+                                <div class="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center">
+                                    📍
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold mb-1">Address</h4>
+                                <p class="text-green-100">123 Organic Farm Road<br>Green Valley, Agriculture District<br>PIN: 560001</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0">
+                                <div class="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center">
+                                    📞
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold mb-1">Phone</h4>
+                                <p class="text-green-100">+91 98765 43210<br>+91 87654 32109</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0">
+                                <div class="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center">
+                                    ✉️
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold mb-1">Email</h4>
+                                <p class="text-green-100"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="761f181019361b171417171104195815191b">[email&#160;protected]</a><br><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="711e0315140302311c1013101016031e5f121e1c">[email&#160;protected]</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start space-x-4">
+                            <div class="flex-shrink-0">
+                                <div class="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center">
+                                    🕒
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold mb-1">Working Hours</h4>
+                                <p class="text-green-100">Mon - Sat: 9:00 AM - 6:00 PM<br>Sun: 10:00 AM - 4:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Social Media -->
+                    <div class="mt-8 pt-8 border-t border-white/20">
+                        <h4 class="font-semibold mb-4">Follow Us</h4>
+                        <div class="flex space-x-4">
+                            <a href="#" class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center hover:bg-white/30 transition-colors duration-200">
+                                📱
+                            </a>
+                            <a href="#" class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center hover:bg-white/30 transition-colors duration-200">
+                                📘
+                            </a>
+                            <a href="#" class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center hover:bg-white/30 transition-colors duration-200">
+                                🐦
+                            </a>
+                            <a href="#" class="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center hover:bg-white/30 transition-colors duration-200">
+                                📷
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-white py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+            <div class="mb-8">
+                <h3 class="text-3xl font-display font-bold text-primary-400">🍄 MABAAGRO.com</h3>
+                <p class="text-gray-400 mt-2">Premium Organic Mushroom Farming</p>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8">
+                <p class="text-gray-400">&copy; 2025 MABAAGRO.com. All rights reserved. | Cultivating Quality, Naturally.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- AOS Animation Script -->
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<!-- Custom JavaScript -->
+<script>
+    // Initialize AOS
+    AOS.init({
+        duration: 1000,
+        once: true,
+        easing: 'ease-out-cubic',
+    });
+    
+    // Mobile Menu Toggle
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    
+    mobileMenuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+    });
+    
+    // Smooth Scrolling for Navigation Links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+                // Close mobile menu if open
+                mobileMenu.classList.add('hidden');
+            }
+        });
+    });
+    
+    // Navbar Background Change on Scroll
+    window.addEventListener('scroll', () => {
+        const navbar = document.getElementById('navbar');
+        if (window.scrollY > 100) {
+            navbar.classList.add('bg-white/95');
+            navbar.classList.remove('bg-white/90');
+        } else {
+            navbar.classList.add('bg-white/90');
+            navbar.classList.remove('bg-white/95');
+        }
+    });
+    
+    // Contact Form Submission (Demo)
+    const contactForm = document.querySelector('form');
+    contactForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        alert('Thank you for your message! We\'ll get back to you soon. 🌱');
+        this.reset();
+    });
+</script>
+
+</body>
+</html>
